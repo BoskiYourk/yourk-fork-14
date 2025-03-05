@@ -3,7 +3,7 @@
   icon:
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
     state: icon
-  product: CrateArmorySMG
+  product: CrateArmorySMGHarmony  # Harmony Change: WT550s the drozds with kammerers in the SMG crate
   cost: 9000
   category: cargoproduct-category-name-armory
   group: market
@@ -13,7 +13,7 @@
   icon:
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
     state: icon
-  product: CrateArmoryShotgun
+  product: CrateArmoryShotgunHarmony # Harmony Change: Replaces the enforcers with kammerers in the shotgun crate
   cost: 7000
   category: cargoproduct-category-name-armory
   group: market
