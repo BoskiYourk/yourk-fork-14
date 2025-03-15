@@ -465,7 +465,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/paramedic.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseRestrictedContraband] # Harmony Change: Added Contraband Level
+  parent: [ClothingUniformBase, BaseSecurityContraband] # Harmony Change: Added Contraband Level
   id: ClothingUniformJumpsuitBrigmedic
   name: brigmedic jumpsuit
   description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
@@ -596,7 +596,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseRestrictedContraband]
+  parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSec
   name: security jumpsuit
   description: A jumpsuit made of strong material, providing robust protection.
@@ -630,7 +630,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/security_blue.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseRestrictedContraband]
+  parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSecGrey
   name: grey security jumpsuit
   description: A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
@@ -641,7 +641,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/security_grey.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseRestrictedContraband]
+  parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformSecurityTrooper
   name: trooper uniform
   description: A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
@@ -653,7 +653,7 @@
 
 #Harmony Change: Updated Pathing and Name for security resprite update
 - type: entity
-  parent: [ClothingUniformBase, BaseRestrictedContraband]
+  parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitWarden
   name: warden's uniform
   description: A formal security suit for officers complete with Nanotrasen belt buckle.
@@ -1201,7 +1201,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/senior_physician.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseRestrictedContraband]
+  parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSeniorOfficer
   name: senior officer jumpsuit
   description: A sign of skill and prestige within the security department.
