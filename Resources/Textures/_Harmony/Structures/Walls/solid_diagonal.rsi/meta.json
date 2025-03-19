@@ -5,7 +5,7 @@
         "y": 32
     },
     "license": "CC-BY-SA-3.0",
-    "copyright": "Sprited by PuroSlavKing (Github) for Space Station 14, Resprited by SonicHDC (GitHub)",
+    "copyright": "Taken from ADT at commit https://github.com/AdventureTimeSS14/space_station_ADT/commit/c32683969728708dbe34806fbabe1fe25bbec8de",
     "states": [
         {
             "name": "state0"
