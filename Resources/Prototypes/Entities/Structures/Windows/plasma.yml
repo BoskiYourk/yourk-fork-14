@@ -5,9 +5,13 @@
   components:
   - type: Sprite
     drawdepth: WallTops
+# Start of Harmony Change: Updates Sprite Pathing
+#    sprite: Structures/Windows/plasma_window.rsi
     sprite: _Harmony/Structures/Windows/plasma_window.rsi
   - type: Icon
+#    sprite: Structures/Windows/plasma_window.rsi
     sprite: _Harmony/Structures/Windows/plasma_window.rsi
+# End of Harmony Change
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Glass
@@ -64,10 +68,14 @@
     - Window
   components:
   - type: Sprite
+# Start of Harmony Change: Updates Sprite Pathing
+#    sprite: Structures/Windows/directional.rsi
     sprite: _Harmony/Structures/Windows/directional.rsi
     state: plasma_window
   - type: Icon
+#    sprite: Structures/Windows/directional.rsi
     sprite: _Harmony/Structures/Windows/directional.rsi
+# End of Harmony Change
     state: plasma_window
   - type: Construction
     graph: WindowDirectional
