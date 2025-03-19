@@ -5,9 +5,13 @@
   components:
   - type: Sprite
     drawdepth: WallTops
+# Start of Harmony Change: Updates Sprite Pathing
+#    sprite: Structures/Windows/reinforced_window.rsi
     sprite: _Harmony/Structures/Windows/reinforced_window.rsi
   - type: Icon
+#    sprite: Structures/Windows/reinforced_window.rsi
     sprite: _Harmony/Structures/Windows/reinforced_window.rsi
+# End of Harmony Change
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 2
@@ -67,11 +71,14 @@
     - Window
   components:
   - type: Sprite
+# Start of Harmony Change: Updates Sprite Pathing
+#    sprite: Structures/Windows/directional.rsi
     sprite: _Harmony/Structures/Windows/directional.rsi
     state: reinforced_window
   - type: Icon
+#    sprite: Structures/Windows/directional.rsi
     sprite: _Harmony/Structures/Windows/directional.rsi
-    state: reinforced_window
+# End of Harmony Change
   - type: Construction
     graph: WindowDirectional
     node: windowReinforcedDirectional

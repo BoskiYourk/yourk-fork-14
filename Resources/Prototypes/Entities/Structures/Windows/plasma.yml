@@ -128,17 +128,26 @@
   components:
   - type: Sprite
     drawdepth: WallTops
+# Start of Harmony Change: Updates Sprite Pathing
+#    sprite: Structures/Windows/plasma_diagonal.rsi
     sprite: _Harmony/Structures/Windows/plasma_diagonal.rsi
+# End of Harmony Change
     state: state0
   - type: Tag
     tags:
     - Diagonal
   - type: IconSmooth
     mode: Diagonal
-    key: walls # Harmony Change: Makes walls and windows connect to eachother.
+# Start of Harmony Change: Makes walls and windows connect to eachother.
+#    key: windows
+    key: walls
+# End of Harmony Change
     base: state
   - type: Icon
+# Start of Harmony Change: Updates Sprite Pathing
+#    sprite: Structures/Windows/plasma_diagonal.rsi
     sprite: _Harmony/Structures/Windows/plasma_diagonal.rsi
+# End of Harmony Change
     state: state0
   - type: Fixtures
     fixtures:

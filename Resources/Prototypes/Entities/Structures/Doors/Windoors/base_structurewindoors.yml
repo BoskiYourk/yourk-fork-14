@@ -395,7 +395,10 @@
   abstract: true
   components:
   - type: Sprite
+# Start of Harmony Change: Updates Sprite Pathing
+#    sprite: Structures/Doors/Windoors/uranium.rsi
     sprite: _Harmony/Structures/Doors/Windoors/uranium.rsi
+# End of Harmony Change
     layers:
     - state: closed
       map: [ "enum.DoorVisualLayers.Base" ]
@@ -460,7 +463,10 @@
   abstract: true
   components:
   - type: Sprite
+# Start of Harmony Change: Updates Sprite Pathing
+#    sprite: Structures/Doors/Windoors/uranium.rsi
     sprite: _Harmony/Structures/Doors/Windoors/uranium.rsi
+# End of Harmony Change
     layers:
     - state: secure_underlay
     - state: closed
