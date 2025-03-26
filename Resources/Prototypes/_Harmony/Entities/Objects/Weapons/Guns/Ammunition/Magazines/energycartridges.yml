@@ -1,7 +1,7 @@
 - type: entity
   id: BaseEnergyCartridgeHarmony
   abstract: true
-  parent: BaseItem
+  parent: [BaseItem, BaseSecurityContraband]
   components:
   - type: Item
   - type: Battery

@@ -1,5 +1,5 @@
 - type: entity
-  parent: [GunSafeBaseSecure, BaseRestrictedContraband]
+  parent: [GunSafeBaseSecure, BaseSecurityContraband]
   id: GunSafeEnergyCarbineHarmony
   name: energy carbine safe
   components:
