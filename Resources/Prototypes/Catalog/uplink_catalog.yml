@@ -1100,13 +1100,7 @@
   cost:
     Telecrystal: 12
   categories:
-    - UplinkDisruption
-# Start of Harmony Change: Adds the singularity beacon to the suprlus blacklist
-    - !type:BuyerWhitelistCondition
-      blacklist:
-        components:
-        - SurplusBundle
-# End of Harmony Change
+    - UplinkDisruptions
 
 - type: listing
   id: UplinkCameraBug
