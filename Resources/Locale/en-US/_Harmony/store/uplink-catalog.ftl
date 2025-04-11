@@ -18,3 +18,9 @@ uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that ca
 
 uplink-fire-axe-name = Fire Axe
 uplink-fire-axe-desc = A fire axe that actually sets your targets on fire.
+
+uplink-shotgun-drum-pellet-name = Shotgun Magazine (.50 Pellet)
+uplink-shotgun-drum-pellet-desc = Shotgun drum with eight shells pellet shells. Compatible with the Bulldog.
+
+uplink-shotgun-drum-slug-name = Shotgun Magazine (.50 Slug)
+uplink-shotgun-drum-slug-desc = Shotgun drum with eight shells slug shells. Compatible with the Bulldog.
