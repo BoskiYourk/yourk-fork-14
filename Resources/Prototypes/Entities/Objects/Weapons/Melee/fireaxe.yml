@@ -68,4 +68,4 @@
     quickEquip: false
     slots:
     - back
-    - suitstorage
+    - suitstorage # Harmony Change: the fire axe can now be worn on your suit storage slot

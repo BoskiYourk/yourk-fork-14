@@ -167,9 +167,11 @@
   discountCategory: veryRareDiscounts
   discountDownTo:
 # Start of Harmony Change: Lowers the C20 TC cost and discount cost
-    Telecrystal: 7
+#   Telecrystal: 7
+    Telecrystal: 6
   cost:
-    Telecrystal: 14
+#   Telecrystal: 17
+    Telecrystal: 16
 # End of Harmony Change
   categories:
   - UplinkWeaponry
@@ -183,8 +185,10 @@
   discountCategory: veryRareDiscounts
   discountDownTo:
 # Start of Harmony Change: Lowers the Bulldog TC cost and discount cost
-    Telecrystal: 9
+#   Telecrystal: 12
+    Telecrystal: 10
   cost:
+#   Telecrystal: 20
     Telecrystal: 18
 # End of Harmony Change
   categories:
@@ -198,9 +202,13 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 20
-  cost:
+# Start of Harmony Change: Increases the price of the china lake bundle
+#    Telecrystal: 20
     Telecrystal: 25
+  cost:
+#    Telecrystal: 25
+    Telecrystal: 30
+# End of Harmony Change
   categories:
   - UplinkWeaponry
 
@@ -212,9 +220,13 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledLMG
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 24
+  # Start of Harmony Change: Decreases the price of the L6 saw bundle
+#    Telecrystal: 24
+    Telecrystal: 20
   cost:
-    Telecrystal: 30
+#    Telecrystal: 30
+    Telecrystal: 25
+# End of Harmony Change
   categories:
   - UplinkWeaponry
 
@@ -1100,7 +1112,7 @@
   cost:
     Telecrystal: 12
   categories:
-    - UplinkDisruptions
+    - UplinkDisruption
 
 - type: listing
   id: UplinkCameraBug

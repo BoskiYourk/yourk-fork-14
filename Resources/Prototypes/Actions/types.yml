@@ -139,6 +139,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
+#   charges: 2s
     charges: 3 # Harmony Change: Gives the Scram Implant One More Charge
     useDelay: 5
     itemIconStyle: BigAction
