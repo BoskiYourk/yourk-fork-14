@@ -3,7 +3,7 @@
   id: WeaponEnergyCarbineHarmony
   suffix: Empty
   parent: [BaseWeaponPowerCell, BaseSecurityContraband]
-  description: An energy weapon that uses specialized power magazines to fire dence laser bullets.
+  description: An energy weapon that uses specialized power magazines to fire dense laser bullets.
   components:
   - type: Item
     size: Large
