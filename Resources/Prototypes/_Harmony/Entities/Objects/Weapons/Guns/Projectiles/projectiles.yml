@@ -97,7 +97,7 @@
     enabled: true
     color: "#15cb2a"
   - type: Projectile
-    impactEffect: BulletImpactEffectXRayDisablerHarmony
+    impactEffect: BulletImpactEffectXRayHarmony
     damage:
       types:
         Heat: 10
