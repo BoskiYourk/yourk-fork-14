@@ -1,5 +1,5 @@
 - type: entity
-  id: BulletImpactEffectXRayDisablerHarmony
+  id: BulletImpactEffectXRayHarmony
   categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn

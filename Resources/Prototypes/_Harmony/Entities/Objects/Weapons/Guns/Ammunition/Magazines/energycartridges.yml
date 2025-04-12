@@ -3,7 +3,6 @@
   abstract: true
   parent: [BaseItem, BaseSecurityContraband]
   components:
-  - type: Item
   - type: Battery
     pricePerJoule: 0.15
   - type: Extractable
@@ -78,7 +77,7 @@
     startingCharge: 2000
   - type: ProjectileBatteryAmmoProvider
     proto: BulletLaserUnstableHarmony
-    fireCost: 1999
+    fireCost: 2000
 
 - type: entity
   id: EnergyCartridgeUnstablePrintedHarmony
