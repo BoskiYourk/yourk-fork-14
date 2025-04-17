@@ -17,7 +17,10 @@
     - id: RadioHandheld
     - id: SeismicCharge # Harmony change
     - id: AppraisalTool
-    - id: FireExtinguisher
+# Harmony Change: Removes the Fire Extinguisher from the Salvage Locker and Replaces it With a Mini Jetpack
+#    - id: FireExtinguisher
+    - id: JetpackMiniFilled
+# End of Harmony Change
     - id: Flare
       prob: 0.3
       rolls: !type:ConstantNumberSelector
