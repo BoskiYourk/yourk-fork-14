@@ -119,8 +119,8 @@
         Piercing: 0.9
 #        Radiation: 0.3 #salv is supposed to have radiation hazards in the future
 #        Caustic: 0.8
-        Radiation: 0.5
-        Caustic: 0.5
+        Radiation: 0.6
+        Caustic: 0.6
   - type: ClothingSpeedModifier
 #    walkModifier: 0.9
 #    sprintModifier: 0.8
@@ -212,11 +212,11 @@
         Piercing: 0.8
         Heat: 0.8
         Radiation: 0.4
-        Caustic: 0.5
+        Caustic: 0.4
 # End of Harmony Change
   - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitGoliath
@@ -559,7 +559,7 @@
         Blunt: 0.8
         Slash: 0.8
         Piercing: 0.9
-        Caustic: 0.5
+        Caustic: 0.6
   - type: ClothingSpeedModifier
 #    walkModifier: 0.85
     walkModifier: 0.9
