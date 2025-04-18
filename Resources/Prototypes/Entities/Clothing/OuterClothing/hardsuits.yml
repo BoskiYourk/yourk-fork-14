@@ -150,6 +150,7 @@
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
+  - type: ExplosionResistance
 #Start of Harmony Change: Lowers the Mining Hardsuit Explosion Resistance
 #    damageCoefficient: 0.3
     damageCoefficient: 0.6
