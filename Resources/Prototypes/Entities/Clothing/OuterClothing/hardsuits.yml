@@ -544,6 +544,7 @@
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
+  - type: ExplosionResistance
 # Start of Harmony Change: Updates the Luxury Mining Hardsuit Explosion Resistance Values
 #    damageCoefficient: 0.5
     damageCoefficient: 0.8
