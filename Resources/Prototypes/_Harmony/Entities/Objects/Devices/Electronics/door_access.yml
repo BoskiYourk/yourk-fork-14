@@ -1,0 +1,9 @@
+# Cargo
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsCargoHarmony
+  suffix: Cargo, Locked, Harmony
+  components:
+  - type: AccessReader
+    access: [["Cargo"]]

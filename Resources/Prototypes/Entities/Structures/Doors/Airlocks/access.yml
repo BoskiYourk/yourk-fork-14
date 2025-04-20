@@ -505,7 +505,10 @@
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsCargo ]
+# Start of Harmony Change: Locks the ATS to only cargo access
+#      board: [ DoorElectronicsCargo ]
+      board: [ DoorElectronicsCargoHarmony ]
+# End of Harmony Change
   - type: Wires
     layoutId: AirlockCargo
 

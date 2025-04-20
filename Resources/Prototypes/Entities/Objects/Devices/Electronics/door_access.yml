@@ -124,10 +124,16 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsCargo
-  suffix: Cargo, Locked
+# Start of Harmony Change: Updates cargo door electronics suffix
+#  suffix: Cargo, Locked
+  suffix: Cargo, Salvage, Locked
+# End of Harmony Change
   components:
   - type: AccessReader
-    access: [["Cargo"]]
+# Start of Harmony Change: Adds Salvage Access to the Cargo Door Electronic
+#    access: [["Cargo"]]
+    access: [["Cargo"],["Salvage"]]
+# End of Harmony Change
 
 # Engineering
 - type: entity

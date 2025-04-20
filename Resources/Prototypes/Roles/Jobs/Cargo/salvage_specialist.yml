@@ -13,7 +13,7 @@
   startingGear: SalvageSpecialistGear
   supervisors: job-supervisors-qm
   access:
-  - Cargo
+#  - Cargo Harmony Change: Removes Cargo Access from Salvagers
   - Salvage
   - Maintenance
   - External
