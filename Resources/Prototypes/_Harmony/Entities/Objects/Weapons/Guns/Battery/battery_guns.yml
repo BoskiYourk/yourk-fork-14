@@ -31,6 +31,8 @@
     steps: 5
     zeroVisible: true
   - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
     minAngle: 21
     maxAngle: 32
     selectedMode: FullAuto
@@ -47,7 +49,7 @@
         priority: 1
         whitelist:
           tags:
-            - EnergyCartridge
+            - EnergyCartridgeCarbine
         whitelistFailPopup: gun-magazine-whitelist-fail
 
 

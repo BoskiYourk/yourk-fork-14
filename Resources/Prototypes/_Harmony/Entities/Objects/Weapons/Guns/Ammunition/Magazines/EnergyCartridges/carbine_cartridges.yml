@@ -1,5 +1,5 @@
 - type: entity
-  id: BaseEnergyCartridgeHarmony
+  id: BaseEnergyCartridgeCarbineHarmony
   abstract: true
   parent: [BaseItem, BaseSecurityContraband]
   components:
@@ -12,16 +12,16 @@
           Quantity: 5
   - type: Tag
     tags:
-      - EnergyCartridge
+      - EnergyCartridgeCarbine
   - type: Appearance
   - type: ProjectileBatteryAmmoProvider
 
 - type: entity
   name: energy cartridge (lethal)
   description: A rechargable magazine used with cartrdige fed laser weapons.
-  id: EnergyCartridgeHarmony
+  id: EnergyCartridgeCarbineHarmony
   suffix: Full
-  parent: BaseEnergyCartridgeHarmony
+  parent: BaseEnergyCartridgeCarbineHarmony
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/RiffleCartridges/harm.rsi
@@ -42,9 +42,9 @@
     fireCost: 53
 
 - type: entity
-  id: EnergyCartridgePrintedHarmony
+  id: EnergyCartridgeCarbinePrintedHarmony
   suffix: Empty
-  parent: EnergyCartridgeHarmony
+  parent: EnergyCartridgeCarbineHarmony
   components:
   - type: Battery
     maxCharge: 1080
@@ -53,9 +53,9 @@
 - type: entity
   name: energy cartridge (unstable)
   description: An energy cartridge filled with extremely unstable energy. You only get one shot, make the most of it.
-  id: EnergyCartridgeUnstableHarmony
+  id: EnergyCartridgeCarbineUnstableHarmony
   suffix: Full
-  parent: BaseEnergyCartridgeHarmony
+  parent: BaseEnergyCartridgeCarbineHarmony
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/RiffleCartridges/harm-large.rsi
@@ -80,9 +80,9 @@
     fireCost: 2000
 
 - type: entity
-  id: EnergyCartridgeUnstablePrintedHarmony
+  id: EnergyCartridgeCarbineUnstablePrintedHarmony
   suffix: Empty
-  parent: EnergyCartridgeUnstableHarmony
+  parent: EnergyCartridgeCarbineUnstableHarmony
   components:
   - type: Battery
     maxCharge: 2000
@@ -91,9 +91,9 @@
 - type: entity
   name: energy cartridge (x-ray)
   description: An energy cartridge filled with radiation altered energy.
-  id: EnergyCartridgeXRayHarmony
+  id: EnergyCartridgeCarbineXRayHarmony
   suffix: Full
-  parent: BaseEnergyCartridgeHarmony
+  parent: BaseEnergyCartridgeCarbineHarmony
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/RiffleCartridges/rads.rsi
@@ -114,9 +114,9 @@
     fireCost: 53
 
 - type: entity
-  id: EnergyCartridgeXRayPrintedHarmony
+  id: EnergyCartridgeCarbineXRayPrintedHarmony
   suffix: Empty
-  parent: EnergyCartridgeXRayHarmony
+  parent: EnergyCartridgeCarbineXRayHarmony
   components:
   - type: Battery
     maxCharge: 1080
