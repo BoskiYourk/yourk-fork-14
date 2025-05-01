@@ -2,6 +2,7 @@
   id: BulletLaserBaseHarmony
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
+  abstract: true
   components:
   - type: Reflective
     reflective:
@@ -38,7 +39,6 @@
   name: laser bolt medium
   id: BulletLaserHarmony
   parent: BulletLaserBaseHarmony
-  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Projectiles/laser_projectile.rsi
@@ -58,7 +58,6 @@
   name: laser bolt unstable
   id: BulletLaserUnstableHarmony
   parent: [BulletLaserBaseHarmony, BaseBulletTrigger]
-  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Projectiles/large_projectile.rsi
@@ -86,7 +85,6 @@
   name: laser bolt x-ray
   id: BulletLaserXRayHarmony
   parent: BulletLaserBaseHarmony
-  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Projectiles/xray_projectile.rsi

@@ -134,6 +134,7 @@
   - WeaponLaserCarbine
   - WeaponXrayCannon
   - WeaponEnergyCarbineHarmony # Harmony Change: Adds the energy carbine to the security recipe pack
+  - WeaponTemperatureGun
 
 - type: latheRecipePack
   id: SecurityDisablers
