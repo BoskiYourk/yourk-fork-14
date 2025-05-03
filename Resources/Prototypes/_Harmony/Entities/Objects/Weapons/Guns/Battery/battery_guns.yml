@@ -73,3 +73,35 @@
   - type: MagazineVisuals
     magState: mag
     steps: 5
+
+- type: entity
+  name: J.E.C
+  id: WeaponJailbrokenEnergyCarbineHarmony
+  suffix: Full
+  parent: [WeaponEnergyCarbineHarmony, BaseSyndicateContraband]
+  components:
+  - type: Gun
+    selectedMode: FullAuto
+    fireRate: 3.5
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser.ogg
+    minAngle: 15
+    maxAngle: 26
+  - type: GunWieldBonus
+    minAngle: -8
+    maxAngle: -6
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: EnergyCarbineCartridgeSyndicateHarmony
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 1
+        whitelist:
+          tags:
+            - EnergyCarbineCartridgeSyndicate
+        whitelistFailPopup: gun-magazine-whitelist-fail
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
