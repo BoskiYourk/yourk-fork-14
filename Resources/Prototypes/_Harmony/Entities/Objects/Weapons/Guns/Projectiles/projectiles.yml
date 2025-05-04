@@ -107,15 +107,15 @@
   parent: BulletLaserBaseHarmony
   components:
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Projectiles/laser_projectile.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Projectiles/shock_projectile.rsi
     layers:
     - state: icon
       shader: unshaded
   - type: PointLight
     enabled: true
-    color: "#ff4300"
+    color: "#AA00FF"
   - type: Projectile
-    impactEffect: BulletImpactEffectOrangeDisabler
+    impactEffect: BulletImpactShockHarmony
     damage:
       types:
         Shock: 9
