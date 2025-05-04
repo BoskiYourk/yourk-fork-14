@@ -80,6 +80,18 @@
   suffix: Full
   parent: [BaseSyndicateContraband, WeaponEnergyCarbineHarmony]
   components:
+  - type: Item
+    size: Large
+  - type: Sprite
+    sprite: _Harmony/Objects/Weapons/Guns/Battery/jailbroken_energy_carbine.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _Harmony/Objects/Weapons/Guns/Battery/jailbroken_energy_carbine.rsi
   - type: Gun
     selectedMode: FullAuto
     fireRate: 3.5
