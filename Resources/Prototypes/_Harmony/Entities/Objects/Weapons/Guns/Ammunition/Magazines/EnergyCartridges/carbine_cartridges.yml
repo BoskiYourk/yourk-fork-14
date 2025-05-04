@@ -132,11 +132,10 @@
   name: energy cartridge (shock)
   description: A rechargable magazine used with cartrdige fed laser weapons.
   id: EnergyCarbineCartridgeSyndicateHarmony
-  suffix: Full
-  parent: BaseEnergyCartridgeHarmony
+  parent: [BaseSyndicateContraband, BaseEnergyCartridgeHarmony]
   components:
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/RiffleCartridges/harm.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/RiffleCartridges/shock.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

@@ -78,7 +78,7 @@
   name: J.E.C
   id: WeaponJailbrokenEnergyCarbineHarmony
   suffix: Full
-  parent: [WeaponEnergyCarbineHarmony, BaseSyndicateContraband]
+  parent: [BaseSyndicateContraband, WeaponEnergyCarbineHarmony]
   components:
   - type: Gun
     selectedMode: FullAuto
@@ -101,6 +101,7 @@
         whitelist:
           tags:
             - EnergyCarbineCartridgeSyndicate
+            - EnergyCarbineCartridge
         whitelistFailPopup: gun-magazine-whitelist-fail
   - type: MagazineVisuals
     magState: mag
