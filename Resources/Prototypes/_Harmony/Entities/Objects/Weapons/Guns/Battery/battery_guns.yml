@@ -96,7 +96,7 @@
     selectedMode: FullAuto
     fireRate: 3.5
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/taser.ogg
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
     minAngle: 15
     maxAngle: 26
   - type: GunWieldBonus
