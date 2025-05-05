@@ -75,7 +75,7 @@
     steps: 5
 
 - type: entity
-  name: J.E.C
+  name: jailbroken energy carbine
   id: WeaponJailbrokenEnergyCarbineHarmony
   suffix: Full
   parent: [BaseSyndicateContraband, WeaponEnergyCarbineHarmony]
