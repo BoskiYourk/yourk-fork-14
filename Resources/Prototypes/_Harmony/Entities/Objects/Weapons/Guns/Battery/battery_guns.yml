@@ -75,7 +75,7 @@
     steps: 5
 
 - type: entity
-  name: jailbroken energy carbine
+  name: blood-red energy carbine
   id: WeaponJailbrokenEnergyCarbineHarmony
   suffix: Full
   parent: [BaseSyndicateContraband, WeaponEnergyCarbineHarmony]

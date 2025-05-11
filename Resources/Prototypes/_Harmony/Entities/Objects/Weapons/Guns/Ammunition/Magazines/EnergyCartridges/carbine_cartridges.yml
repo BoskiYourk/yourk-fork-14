@@ -129,7 +129,7 @@
     startingCharge: 0
 
 - type: entity
-  name: energy cartridge (shock)
+  name: jailbroken energy cartridge
   description: A rechargable magazine used with cartrdige fed laser weapons.
   id: EnergyCarbineCartridgeSyndicateHarmony
   parent: [BaseSyndicateContraband, BaseEnergyCartridgeHarmony]

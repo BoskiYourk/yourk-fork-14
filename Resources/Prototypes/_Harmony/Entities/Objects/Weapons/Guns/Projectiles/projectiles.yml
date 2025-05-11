@@ -119,5 +119,6 @@
     damage:
       types:
         Shock: 9
+    ignoreResistances: true
   - type: StaminaDamageOnCollide
     damage: 5
