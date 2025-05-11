@@ -214,10 +214,12 @@
         Heat: 0.8
         Radiation: 0.4
         Caustic: 0.4
-# End of Harmony Change
   - type: ClothingSpeedModifier
+#    walkModifier: 0.8
+#    sprintModifier: 0.8
     walkModifier: 0.85
     sprintModifier: 0.85
+# End of Harmony Change
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitGoliath
@@ -556,11 +558,11 @@
 #        Blunt: 0.9
 #        Slash: 0.9
 #        Piercing: 0.8
-        Radiation: 0.5
 #        Caustic: 0.8
         Blunt: 0.8
         Slash: 0.8
         Piercing: 0.9
+        Radiation: 0.5
         Caustic: 0.6
   - type: ClothingSpeedModifier
 #    walkModifier: 0.85
