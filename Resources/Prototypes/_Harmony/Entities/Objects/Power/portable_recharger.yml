@@ -1,0 +1,24 @@
+- type: entity
+  parent: [BaseSyndicateContraband, PortableRecharger]
+  id: SyndicateEnergyCartridgeChargerBeltHarmony
+  name: syndicate chargeman
+  description: High-tech recharger adapted for portability.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: Objects/Power/portable_recharger.rsi
+    state: charging
+  - type: Clothing
+    equippedPrefix: charging
+    quickEquip: true
+    slots:
+    - belt
+  - type: ItemSlots
+    slots:
+      charger_slot:
+        ejectOnInteract: true
+        whitelist:
+          tags:
+          - EnergyCarbineCartridge
+          - EnergyCarbineCartridgeSyndicate
