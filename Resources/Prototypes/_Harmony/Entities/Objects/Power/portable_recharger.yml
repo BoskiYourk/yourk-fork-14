@@ -1,23 +1,40 @@
 - type: entity
-  parent: [BaseSyndicateContraband, PortableRecharger]
+  parent: [BaseSyndicateContraband, Clothing]
   id: SyndicateEnergyCartridgeChargerBeltHarmony
-  name: syndicate chargeman
-  description: High-tech recharger adapted for portability.
+  name: syndicate energy cartridge recharger
+  description: High-tech energy cartridge recharger adapted for portability.
   components:
   - type: Item
     size: Huge
   - type: Sprite
-    sprite: Objects/Power/portable_recharger.rsi
-    state: charging
+    sprite: _Harmony/Clothing/Belt/syndie-charger
+    layers:
+    - state: icon
+    - state: icon-unlit
+      shader: unshaded
   - type: Clothing
-    equippedPrefix: charging
-    quickEquip: true
+    sprite: _Harmony/Clothing/Belt/syndie-charger
+    quickEquip: false
     slots:
     - belt
+  - type: Charger
+    slotId: charger_slot
+    portable: true
+  - type: PowerChargerVisuals
+  - type: ApcPowerReceiver
+    needsPower: false
+    powerLoad: 0
+  - type: StaticPrice
+    price: 500
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: ContainerContainer
+    containers:
+      charger_slot: !type:ContainerSlot
   - type: ItemSlots
     slots:
       charger_slot:
-        ejectOnInteract: true
+        ejectOnInteract: false
         whitelist:
           tags:
           - EnergyCarbineCartridge
