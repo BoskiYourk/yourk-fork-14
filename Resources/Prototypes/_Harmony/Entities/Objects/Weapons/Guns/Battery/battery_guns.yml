@@ -76,7 +76,7 @@
 
 - type: entity
   name: blood-red energy carbine
-  id: WeaponJailbrokenEnergyCarbineHarmony
+  id: WeaponBloodRedEnergyCarbineHarmony
   suffix: Full
   parent: [BaseSyndicateContraband, WeaponEnergyCarbineHarmony]
   components:
