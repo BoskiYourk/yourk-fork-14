@@ -110,7 +110,7 @@
 - type: listing
   id: UplinkBeltRechargerHarmony
   name: uplink-belt-recharger-name
-  description: uplink-belt-recharger-name
+  description: uplink-belt-recharger-desc
   productEntity: SyndicateEnergyCartridgeChargerBeltHarmony
   discountCategory: veryRareDiscounts
   discountDownTo:

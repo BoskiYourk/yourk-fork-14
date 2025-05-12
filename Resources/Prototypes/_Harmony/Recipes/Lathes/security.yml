@@ -33,7 +33,7 @@
 
 - type: latheRecipe
   id: EnergyCarbineCartridgeUnstablePrintedHarmony
-  result: EnergyCarbineCartridgenstablePrintedHarmony
+  result: EnergyCarbineCartridgeUnstablePrintedHarmony
   completetime: 2
   materials:
     Steel: 1000

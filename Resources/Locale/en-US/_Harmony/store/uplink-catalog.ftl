@@ -23,4 +23,4 @@ uplink-blood-red-carbine-ammo-name = Jailbroken Energy Cartridge
 uplink-blood-red-carbine-ammo-desc = An energy cartridge that holds twenty charges of electric bolts.
 
 uplink-belt-recharger-name = Syndicate Energy Cartridge Recharger
-uplink-belt-recharger-name = A portable energy cartridge recharger made to be worn around your waist.
+uplink-belt-recharger-desc = A portable energy cartridge recharger made to be worn around your waist.
