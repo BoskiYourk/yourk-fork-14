@@ -15,3 +15,12 @@ uplink-hyposhell-desc = A box containing four hyposhells, shotgun shells that ca
 
 uplink-defib-name = Interdyne Defibrillator
 uplink-defib-desc = A compact defibrillator. It can be used to revive your fellow comrades, or as an effective melee weapon! You should probably throw away your acidifier if you expect to use this.
+
+uplink-blood-red-carbine-name = Blood-Red Carbine Bundle
+uplink-blood-red-carbine-desc = A bundle containing the stolen and improved Blood-Red Energy Carbine. It comes with two spare Jailbroken Energy Cartridges
+
+uplink-blood-red-carbine-ammo-name = Jailbroken Energy Cartridge
+uplink-blood-red-carbine-ammo-desc = An energy cartridge that holds twenty charges of electric bolts.
+
+uplink-belt-recharger-name = Syndicate Energy Cartridge Recharger
+uplink-belt-recharger-name = A portable energy cartridge recharger made to be worn around your waist.
