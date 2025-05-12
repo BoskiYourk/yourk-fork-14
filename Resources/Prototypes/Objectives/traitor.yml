@@ -216,10 +216,14 @@
     # HoS will have this on them a lot of the time so..
     difficulty: 3
   - type: NotJobRequirement
-    job: HeadOfSecurity
+# Start of Harmony Change: Updates owner of the energy shotgun Warden
+#    job: HeadOfSecurity
+    job: Warden
   - type: StealCondition
     stealGroup: WeaponEnergyShotgun
-    owner: job-name-hos
+#    owner: job-name-hos
+    owner: job-name-warden
+# End of Harmony Change
 
 ## ce
 
