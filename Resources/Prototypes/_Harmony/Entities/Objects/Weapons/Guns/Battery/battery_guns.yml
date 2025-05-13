@@ -88,13 +88,13 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletLaserHeavyHarmony
+    proto: BulletLaserMagnumHarmony
     fireCost: 150
   - type: BatteryWeaponFireModes
     fireModes:
-    - proto: BulletLaserHeavyHarmony
+    - proto: BulletLaserMagnumHarmony
       fireCost: 150
-    - proto: BulletLaserWindowPiercingHarmony
+    - proto: BulletLaserWindowPiercingMagnumHarmony
       fireCost: 150
     - proto: BulletLaserSpreadMagnumHarmony
       fireCost: 250
