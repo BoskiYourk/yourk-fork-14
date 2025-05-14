@@ -10,6 +10,30 @@
   categories:
   - UplinkExplosives
 # Ammo
+
+# For the Bulldog
+- type: listing
+  id: UplinkShotgunShotgunBuckshotMagazineHarmony
+  name: uplink-shotgun-drum-pellet-name
+  description: uplink-shotgun-drum-pellet-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: pellets }
+  productEntity: MagazineShotgun
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkShotgunShotgunSlugMagazineHarmony
+  name: uplink-shotgun-drum-slug-name
+  description: uplink-shotgun-drum-slug-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: slug }
+  productEntity: MagazineShotgunSlug
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkAmmo
+
 # Chemicals
 - type: listing
   id: UplinkDefib
