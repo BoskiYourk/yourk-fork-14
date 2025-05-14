@@ -105,8 +105,8 @@
       fireCost: 150
     - proto: BulletLaserWindowPiercingMagnumHarmony
       fireCost: 150
-    - proto: BulletLaserSpreadMagnumHarmony
-      fireCost: 250
+    - proto: BulletDisabler
+      fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 24
