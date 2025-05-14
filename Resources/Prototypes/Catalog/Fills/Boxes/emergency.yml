@@ -294,7 +294,7 @@
 # Start of Harmony Change: Updates Syndicate Survival Box Sprite State
 #    - state: internals
     - state: box_of_doom
-    - state: nitrogentank
 # End of Harmony Change
+    - state: nitrogentank
   - type: Label
     currentLabel: reagent-name-nitrogen
