@@ -985,13 +985,6 @@
   startNode: start
   targetNode: windoor
   category: construction-category-structures
-  description: It opens, it closes, and you can see through it! And it can be made of Plasma, Uranium, or normal Glass!
-  icon:
-# Harmony Change: Updates Sprite Pathing
-#    sprite: Structures/Doors/Windoors/windoor.rsi
-    sprite: _Harmony/Structures/Doors/Windoors/windoor.rsi
-# End of Harmony Change
-    state: closed
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1004,13 +997,6 @@
   startNode: start
   targetNode: windoorSecure
   category: construction-category-structures
-  description: It's tough, it's a door, and you can see through it! And it can be made of Plasma, Uranium, or normal Glass!
-  icon:
-# Harmony Change: Updates Sprite Pathing
-#    sprite: Structures/Doors/Windoors/windoor.rsi
-    sprite: _Harmony/Structures/Doors/Windoors/windoor.rsi
-# End of Harmony Change
-    state: closed
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
