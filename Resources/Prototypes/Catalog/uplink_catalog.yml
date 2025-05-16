@@ -88,7 +88,7 @@
   productEntity: ThrowingKnivesKit
   discountCategory: rareDiscounts
   discountDownTo:
-# Start of Harmony Change: Lowes throwing knives kit cost to four TC
+# Start of Harmony Change: Lowers throwing knives kit cost to four TC
 #    Telecrystal: 3
     Telecrystal: 2
   cost:
