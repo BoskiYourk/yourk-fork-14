@@ -124,7 +124,7 @@
     Telecrystal: 1
   cost:
 #    Telecrystal: 6
-    Telecrystal: 2
+    Telecrystal: 3
 # End of Harmony Change
   categories:
   - UplinkWeaponry
