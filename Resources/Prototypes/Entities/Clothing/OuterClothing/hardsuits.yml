@@ -36,9 +36,13 @@
   description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
+  #start of Harmony change : Update sprite pathing
+    #sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/atmospherics.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/atmospherics.rsi
+  #end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -72,9 +76,13 @@
   description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
+#  start of Harmony change : Update sprite pathing
+#   sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/engineering.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
+#   sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/engineering.rsi
+#  end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.04
     lowPressureMultiplier: 1000
@@ -404,9 +412,13 @@
   description: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
+#  start of Harmony change : Update sprite pathing
+#   sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/engineering-white.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
+#   sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/engineering-white.rsi
+#  end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -448,6 +460,8 @@
     modifiers:
       coefficients:
         Caustic: 0.1
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.4
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.95
@@ -574,6 +588,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitLuxury
 
 #ANTAG HARDSUITS
+# Harmony change. Updated sprite file path due to resprite
 #Blood-red Hardsuit
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
@@ -582,16 +597,22 @@
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+  #start of Harmony change
+    #sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndicate.rsi
+  #end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.5
+  #- type: StaminaResistance
+  #  damageCoefficient: 0.75
   - type: Armor
     modifiers:
       coefficients:
@@ -613,6 +634,7 @@
     - Hardsuit
     - WhitelistChameleon
 
+# Harmony change. Updated sprite file path due to resprite
 # Syndicate Medic Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitSyndie, BaseSyndicateContraband]
@@ -621,27 +643,36 @@
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
+  #start of Harmony change
+    #sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieMedic
+  #end of Harmony change
   - type: Tag
     tags:
     - Hardsuit
     - WhitelistChameleon
 
+# Harmony change. Updated sprite file path due to resprite
 #Syndicate Elite Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
   id: ClothingOuterHardsuitSyndieElite
   name: syndicate elite hardsuit
-  description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
+  description: An elite version of the blood-red hardsuit, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+  #start of Harmony change
+    #sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndieelite.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+  #end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -652,6 +683,8 @@
     damageCoefficient: 0.2
   - type: FireProtection
     reduction: 0.8
+  #- type: StaminaResistance
+  #  damageCoefficient: 0.6
   - type: Armor
     modifiers:
       coefficients:
@@ -670,6 +703,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
 
+# Harmony change. Updated sprite file path due to resprite
 #Syndicate Commander Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
@@ -678,14 +712,20 @@
   description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
+  #start of Harmony change
+    #sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
+  #end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.5
+  #- type: StaminaResistance
+  #  damageCoefficient: 0.6
   - type: Armor
     modifiers:
       coefficients:
@@ -696,8 +736,8 @@
         Radiation: 0.25
         Caustic: 0.4
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
@@ -718,6 +758,8 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.3
+  #- type: StaminaResistance # Should not have stamina resistance, this is purely so people know it was not forgotten.
+  #  damageCoefficient: 0.99
   - type: Armor
     modifiers:
       coefficients:
@@ -733,6 +775,9 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCybersun
+  - type: Tag
+    tags:
+    - MonkeyWearable
 
 #Wizard Hardsuit
 - type: entity
@@ -799,7 +844,7 @@
 #Pirate EVA Suit (Deep Space EVA Suit)
 #Despite visually appearing like a softsuit, it functions exactly like a hardsuit would (parents off of base hardsuit, has resistances and toggleable clothing, etc.) so it goes here.
 - type: entity
-  parent:  ClothingOuterHardsuitBase
+  parent: [ ClothingOuterHardsuitBase, BaseMajorContraband ]
   id:  ClothingOuterHardsuitPirateEVA
   name: deep space EVA suit
   suffix: Pirate
@@ -807,6 +852,8 @@
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
+  - type: Item
+    size: Huge
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
   - type: ExplosionResistance
@@ -830,13 +877,15 @@
 
 #Pirate Captain Hardsuit
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ ClothingOuterHardsuitBase, BaseMajorContraband ]
   id: ClothingOuterHardsuitPirateCap
   name: pirate captain's hardsuit
   description: An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
+  - type: Item
+    size: Huge
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
   - type: PressureProtection
@@ -903,6 +952,8 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTEngineer
+  - type: FireProtection
+    reduction: 0.8
 
 #ERT Medic Hardsuit
 - type: entity
@@ -971,6 +1022,8 @@
     damageCoefficient: 0.2
   - type: FireProtection
     reduction: 0.8
+  - type: StaminaResistance
+    damageCoefficient: 0.15 # Needs 21 hits with a disabler to stun :godo:
   - type: Armor
     modifiers:
       coefficients:
@@ -1017,6 +1070,8 @@
         Shock: 0.1
         Radiation: 0.1
         Caustic: 0.1
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.25
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
