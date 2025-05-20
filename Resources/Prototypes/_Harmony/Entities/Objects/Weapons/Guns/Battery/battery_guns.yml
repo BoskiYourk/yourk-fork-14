@@ -110,6 +110,3 @@
     autoRechargePause: true
     autoRechargePauseTime: 15
   - type: Appearance
-  - type: Tag
-    tags:
-    - Sidearm
