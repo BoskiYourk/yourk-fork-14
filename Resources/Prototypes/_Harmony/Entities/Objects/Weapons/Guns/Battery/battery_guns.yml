@@ -77,9 +77,6 @@
           tags:
             - EnergyCartridge
         whitelistFailPopup: gun-magazine-whitelist-fail
-  - type: MagazineVisuals
-    magState: mag
-    steps: 5
 
 - type: entity
   name: energy magnum
