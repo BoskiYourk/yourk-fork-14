@@ -31,3 +31,6 @@
     containers:
       ballistic-ammo: !type:Container
         ents: []
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Harmony/Items/rsc_speedloader_impact.ogg
