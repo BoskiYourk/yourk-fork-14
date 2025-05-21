@@ -1,7 +1,7 @@
 - type: entity
+  abstract: true
   parent: [BaseItem, BaseSecurityContraband]
   id: BaseEnergyCartridgeHarmony
-  abstract: true
   components:
   - type: Battery
     pricePerJoule: 0.15
