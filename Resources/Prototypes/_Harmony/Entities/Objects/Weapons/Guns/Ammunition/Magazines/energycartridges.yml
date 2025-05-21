@@ -12,19 +12,20 @@
           Quantity: 5
   - type: Tag
     tags:
-      - EnergyCartridge
+      - EnergyCarbineCartridge
   - type: Appearance
   - type: ProjectileBatteryAmmoProvider
 
+# Carbine
+
 - type: entity
-  name: energy cartridge (lethal)
+  name: energy cartridge (carbine)
   description: A rechargable magazine used with cartrdige fed laser weapons.
-  id: EnergyCartridgeHarmony
-  suffix: Full
+  id: EnergyCarbineCartridgeHarmony
   parent: BaseEnergyCartridgeHarmony
   components:
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/RiffleCartridges/harm.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/Carbine/heat.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -35,30 +36,23 @@
     magState: mag
     steps: 4
   - type: Battery
-    maxCharge: 1080
-    startingCharge: 1080
+    maxCharge: 750
+    startingCharge: 750
   - type: ProjectileBatteryAmmoProvider
     proto: BulletLaserHarmony
-    fireCost: 53
+    fireCost: 37
+  - type: Tag
+    tags:
+      - EnergyCarbineCartridge
 
 - type: entity
-  id: EnergyCartridgePrintedHarmony
-  suffix: Empty
-  parent: EnergyCartridgeHarmony
-  components:
-  - type: Battery
-    maxCharge: 1080
-    startingCharge: 0
-
-- type: entity
-  name: energy cartridge (unstable)
+  name: unstable energy cartridge (carbine)
   description: An energy cartridge filled with extremely unstable energy. You only get one shot, make the most of it.
-  id: EnergyCartridgeUnstableHarmony
-  suffix: Full
+  id: EnergyCarbineCartridgeUnstableHarmony
   parent: BaseEnergyCartridgeHarmony
   components:
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/RiffleCartridges/harm-large.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/Carbine/unstable.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -78,25 +72,18 @@
   - type: ProjectileBatteryAmmoProvider
     proto: BulletLaserUnstableHarmony
     fireCost: 2000
+  - type: Tag
+    tags:
+      - EnergyCarbineCartridge
 
 - type: entity
-  id: EnergyCartridgeUnstablePrintedHarmony
-  suffix: Empty
-  parent: EnergyCartridgeUnstableHarmony
-  components:
-  - type: Battery
-    maxCharge: 2000
-    startingCharge: 0
-
-- type: entity
-  name: energy cartridge (x-ray)
+  name: x-ray energy cartridge (carbine)
   description: An energy cartridge filled with radiation altered energy.
-  id: EnergyCartridgeXRayHarmony
-  suffix: Full
+  id: EnergyCarbineCartridgeXRayHarmony
   parent: BaseEnergyCartridgeHarmony
   components:
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/RiffleCartridges/rads.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/Carbine/x-ray.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -107,17 +94,11 @@
     magState: mag
     steps: 4
   - type: Battery
-    maxCharge: 1080
-    startingCharge: 1080
+    maxCharge: 750
+    startingCharge: 750
   - type: ProjectileBatteryAmmoProvider
     proto: BulletLaserXRayHarmony
-    fireCost: 53
-
-- type: entity
-  id: EnergyCartridgeXRayPrintedHarmony
-  suffix: Empty
-  parent: EnergyCartridgeXRayHarmony
-  components:
-  - type: Battery
-    maxCharge: 1080
-    startingCharge: 0
+    fireCost: 37
+  - type: Tag
+    tags:
+      - EnergyCarbineCartridge
