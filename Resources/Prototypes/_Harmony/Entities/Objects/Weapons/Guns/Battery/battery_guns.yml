@@ -1,8 +1,8 @@
 - type: entity
-  name: energy carbine
-  id: WeaponEnergyCarbineHarmony
-  suffix: Empty
   parent: [BaseItem, BaseSecurityContraband]
+  id: WeaponEnergyCarbineHarmony
+  name: energy carbine
+  suffix: Empty
   description: An energy weapon that uses specialized power magazines to fire dense laser bullets.
   components:
   - type: Item
@@ -61,9 +61,9 @@
       gun_magazine: !type:ContainerSlot
 
 - type: entity
+  parent: WeaponEnergyCarbineHarmony
   id: WeaponEnergyCarbineFilledHarmony
   suffix: Full
-  parent: WeaponEnergyCarbineHarmony
   components:
   - type: ItemSlots
     slots:

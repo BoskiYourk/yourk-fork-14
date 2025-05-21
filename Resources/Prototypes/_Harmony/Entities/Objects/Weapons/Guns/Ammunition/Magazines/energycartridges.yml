@@ -1,7 +1,7 @@
 - type: entity
+  parent: [BaseItem, BaseSecurityContraband]
   id: BaseEnergyCartridgeHarmony
   abstract: true
-  parent: [BaseItem, BaseSecurityContraband]
   components:
   - type: Battery
     pricePerJoule: 0.15
@@ -16,10 +16,10 @@
 # Carbine
 
 - type: entity
+  parent: BaseEnergyCartridgeHarmony
+  id: EnergyCarbineCartridgeHarmony
   name: energy cartridge (carbine)
   description: A rechargable magazine used with cartrdige fed laser weapons.
-  id: EnergyCarbineCartridgeHarmony
-  parent: BaseEnergyCartridgeHarmony
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/Carbine/heat.rsi
@@ -43,10 +43,10 @@
       - EnergyCarbineCartridge
 
 - type: entity
+  parent: BaseEnergyCartridgeHarmony
+  id: EnergyCarbineCartridgeUnstableHarmony
   name: unstable energy cartridge (carbine)
   description: An energy cartridge filled with extremely unstable energy. You only get one shot, make the most of it.
-  id: EnergyCarbineCartridgeUnstableHarmony
-  parent: BaseEnergyCartridgeHarmony
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/Carbine/unstable.rsi
@@ -74,10 +74,10 @@
       - EnergyCarbineCartridge
 
 - type: entity
+  parent: BaseEnergyCartridgeHarmony
+  id: EnergyCarbineCartridgeXRayHarmony
   name: x-ray energy cartridge (carbine)
   description: An energy cartridge filled with radiation altered energy.
-  id: EnergyCarbineCartridgeXRayHarmony
-  parent: BaseEnergyCartridgeHarmony
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/Carbine/x-ray.rsi
