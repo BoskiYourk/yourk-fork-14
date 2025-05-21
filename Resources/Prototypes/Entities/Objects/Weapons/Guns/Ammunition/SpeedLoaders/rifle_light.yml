@@ -31,6 +31,8 @@
     containers:
       ballistic-ammo: !type:Container
         ents: []
+# Start of Harmony Change: Gives the .30 Speedloader a "EmitSoundOnLand" Sound
   - type: EmitSoundOnLand
     sound:
       path: /Audio/_Harmony/Items/rsc_speedloader_impact.ogg
+# End of Harmony Change
