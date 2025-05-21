@@ -8,7 +8,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Battery/laser_carbine.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Battery/energy_carbine.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -16,7 +16,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _Harmony/Objects/Weapons/Guns/Battery/laser_carbine.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Battery/energy_carbine.rsi
     quickEquip: false
     slots:
     - Back
@@ -40,7 +40,7 @@
       - FullAuto
       - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+      path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: MagazineAmmoProvider
   - type: ItemSlots
     slots:
