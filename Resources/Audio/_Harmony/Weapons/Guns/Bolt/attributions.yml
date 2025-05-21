@@ -1,5 +1,10 @@
 - files: ["rsc_bolt_close","rsc_bolt_open"]
   license: "CC-BY-SA-3.0"
+<<<<<<< HEAD
   copyright: "Recordeed by spanky-spanky (GitHub) and edited by Nonagon44 (GitHub) for Space Station 14"
   source: "https://github.com/ss14-harmony/ss14-harmony/pull/644"
+=======
+  copyright: "Recorded by spanky-spanky (GitHub) and edited by Nonagon44 (GitHub) for Space Station 14"
+  source: "https://github.com/ss14-harmony/ss14-harmony"
+>>>>>>> cca4cd099621a50f4f6a12c787df73587f3c3202
 # The gun bolt sound is currently HARDCODED!! FUUUUUUUUCK!! Use these if they ever are not that way :)
