@@ -91,7 +91,6 @@
     - state: icon-unshaded
       shader: unshaded
   - type: Gun
-    fireRate: 1.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
