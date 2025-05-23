@@ -49,6 +49,10 @@
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
+# Start of Harmony Change: Adds a Sprite for the Worn Sprites of the Mosin
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
+# End of Harmony Change
 
 - type: entity
   name: Hristov
