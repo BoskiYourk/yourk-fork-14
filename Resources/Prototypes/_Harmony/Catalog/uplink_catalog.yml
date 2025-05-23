@@ -13,7 +13,7 @@
 
 # For the Bulldog
 - type: listing
-  id: UplinkShotgunShotgunBuckshotMagazineHarmony
+  id: UplinkShotgunBuckshotMagazineHarmony
   name: uplink-shotgun-drum-pellet-name
   description: uplink-shotgun-drum-pellet-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: pellets }
@@ -24,7 +24,7 @@
   - UplinkAmmo
 
 - type: listing
-  id: UplinkShotgunShotgunSlugMagazineHarmony
+  id: UplinkShotgunSlugMagazineHarmony
   name: uplink-shotgun-drum-slug-name
   description: uplink-shotgun-drum-slug-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: slug }
