@@ -71,7 +71,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 25
+        Heat: 30
 
 - type: entity
   name: magnum window-piercing bolt
@@ -90,7 +90,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 15
+        Heat: 20
   - type: Fixtures
     fixtures:
       projectile:
