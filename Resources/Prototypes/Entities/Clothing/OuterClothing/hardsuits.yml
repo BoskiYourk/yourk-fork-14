@@ -152,7 +152,7 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
 #Start of Harmony Change: Lowers the Mining Hardsuit Explosion Resistance
-#    damageCoefficient: 0.3
+#    damageCoefficient: 0.7
     damageCoefficient: 0.6
 # End of Harmony Change
   - type: Armor
@@ -554,13 +554,12 @@
       coefficients:
 # Start of Harmony Change: Updates Luxury Mining Hardsuit Armor and Speed Values
 #        Blunt: 0.9
-#        Slash: 0.9
-#        Piercing: 0.8
-        Radiation: 0.5
-#        Caustic: 0.8
         Blunt: 0.8
         Slash: 0.8
         Piercing: 0.9
+#        Heat: 0.9
+        Radiation: 0.5
+#        Caustic: 0.8
         Caustic: 0.6
   - type: ClothingSpeedModifier
 #    walkModifier: 0.85
