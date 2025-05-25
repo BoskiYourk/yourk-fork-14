@@ -119,7 +119,7 @@
   productEntity: ClothingHandsKnuckleDustersSyndicate
   discountCategory: veryRareDiscounts
   discountDownTo:
-# Start of Harmony Change: Lowers syndicate knuckle duster price to two TC
+# Start of Harmony Change: Lowers syndicate knuckle duster price to three TC
 #    Telecrystal: 3
     Telecrystal: 1
   cost:
