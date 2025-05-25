@@ -79,10 +79,9 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
 
 - type: entity
-  name: blood-red energy carbine
-  id: WeaponBloodRedEnergyCarbineHarmony
-  suffix: Full
   parent: [BaseSyndicateContraband, WeaponEnergyCarbineHarmony]
+  id: WeaponBloodRedEnergyCarbineHarmony
+  name: blood-red energy carbine
   components:
   - type: Item
     size: Large

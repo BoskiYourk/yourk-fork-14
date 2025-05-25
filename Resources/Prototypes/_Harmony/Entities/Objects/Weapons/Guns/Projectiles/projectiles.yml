@@ -131,10 +131,10 @@
     maxIntensity: 20
 
 - type: entity
-  name: laser bolt x-ray
-  id: BulletLaserXRayHarmony
   parent: BulletLaserBaseHarmony
+  id: BulletLaserXRayHarmony
   categories: [ HideSpawnMenu ]
+  name: laser bolt x-ray
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Projectiles/xray_projectile.rsi
