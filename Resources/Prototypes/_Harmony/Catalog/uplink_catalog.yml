@@ -1,4 +1,19 @@
 # Guns
+
+- type: listing
+  id: UplinkBloodRedCarbineBundleHarmony
+  name: uplink-blood-red-carbine-name
+  description: uplink-blood-red-carbine-desc
+  icon: { sprite: _Harmony/Objects/Weapons/Guns/Battery/blood-red_energy_carbine.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledBloodRedEnergyCarbineHarmony
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 15
+  cost:
+    Telecrystal: 20
+  categories:
+  - UplinkWeaponry
+
 # Explosives
 - type: listing
   id: UplinkPizzaBomb
@@ -20,6 +35,17 @@
   productEntity: MagazineShotgun
   cost:
     Telecrystal: 2
+  categories:
+  - UplinkAmmo
+
+# For the Blood-Red Energy Carbine
+- type: listing
+  id: UplinkBloodRedCarbineAmmoHarmony
+  name: uplink-blood-red-carbine-ammo-name
+  description: uplink-blood-red-carbine-ammo-desc
+  productEntity: EnergyCarbineCartridgeSyndicateHarmony
+  cost:
+    Telecrystal: 4
   categories:
   - UplinkAmmo
 
@@ -101,6 +127,19 @@
     Telecrystal: 2
   cost:
     Telecrystal: 4
+  categories:
+  - UplinkWearables
+
+- type: listing
+  id: UplinkBeltRechargerHarmony
+  name: uplink-belt-recharger-name
+  description: uplink-belt-recharger-desc
+  productEntity: SyndicateEnergyCartridgeChargerBeltHarmony
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 6
+  cost:
+    Telecrystal: 8
   categories:
   - UplinkWearables
 
