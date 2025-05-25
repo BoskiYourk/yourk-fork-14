@@ -21,3 +21,12 @@ uplink-shotgun-drum-pellet-desc = Shotgun drum with eight pellet shells. Compati
 
 uplink-shotgun-drum-slug-name = Shotgun Magazine (.50 slug)
 uplink-shotgun-drum-slug-desc = Shotgun drum with eight slug shells. Compatible with the Bulldog.
+
+uplink-blood-red-carbine-name = Blood-Red Energy Carbine Bundle
+uplink-blood-red-carbine-desc = A bundle containing the stolen and improved Blood-Red Energy Carbine. It comes with two spare Jailbroken Energy Cartridges
+
+uplink-blood-red-carbine-ammo-name = Jailbroken Energy Cartridge
+uplink-blood-red-carbine-ammo-desc = An energy cartridge that holds twenty charges of electric bolts.
+
+uplink-belt-recharger-name = Syndicate Energy Cartridge Recharger
+uplink-belt-recharger-desc = A portable energy cartridge recharger made to be worn around your waist.
