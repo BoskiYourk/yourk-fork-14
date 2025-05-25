@@ -82,6 +82,8 @@
   parent: [BaseSyndicateContraband, WeaponEnergyCarbineHarmony]
   id: WeaponBloodRedEnergyCarbineHarmony
   name: blood-red energy carbine
+  suffix: Full
+  description: A modified version of Nanotrasen's Energy Carbine. It comes with a modified connector port and is backward compatible with other carbine cartridges.
   components:
   - type: Item
     size: Large
