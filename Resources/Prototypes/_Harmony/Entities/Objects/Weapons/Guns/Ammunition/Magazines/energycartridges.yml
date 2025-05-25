@@ -74,9 +74,9 @@
       - EnergyCarbineCartridge
 
 - type: entity
-  name: x-ray energy cartridge (carbine)
-  id: EnergyCarbineCartridgeXRayHarmony
   parent: BaseEnergyCartridgeHarmony
+  id: EnergyCarbineCartridgeXRayHarmony
+  name: x-ray energy cartridge (carbine)
   description: An energy cartridge filled with radiation altered energy.
   components:
   - type: Sprite
