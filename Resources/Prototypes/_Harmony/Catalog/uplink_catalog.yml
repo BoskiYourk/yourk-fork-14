@@ -131,19 +131,6 @@
   - UplinkWearables
 
 - type: listing
-  id: UplinkBeltRechargerHarmony
-  name: uplink-belt-recharger-name
-  description: uplink-belt-recharger-desc
-  productEntity: SyndicateEnergyCartridgeChargerBeltHarmony
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 6
-  cost:
-    Telecrystal: 8
-  categories:
-  - UplinkWearables
-
-- type: listing
   id: UplinkClothingOuterArmorRaidHarmony
   name: uplink-syndie-raid-name
   description: uplink-syndie-raid-desc
