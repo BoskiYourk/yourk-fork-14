@@ -6,6 +6,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponBloodRedEnergyCarbineHarmony
-      - id: EnergyCarbineCartridgeSyndicateHarmony
-        amount: 2
+    - id: WeaponBloodRedEnergyCarbineHarmony
+    - id: EnergyCarbineCartridgeSyndicateHarmony
+      amount: 2

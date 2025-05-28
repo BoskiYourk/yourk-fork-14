@@ -117,8 +117,8 @@
         priority: 1
         whitelist:
           tags:
-            - EnergyCarbineCartridgeSyndicate
-            - EnergyCarbineCartridge
+          - EnergyCarbineCartridgeSyndicate
+          - EnergyCarbineCartridge
         whitelistFailPopup: gun-magazine-whitelist-fail
   - type: MagazineVisuals
     magState: mag
