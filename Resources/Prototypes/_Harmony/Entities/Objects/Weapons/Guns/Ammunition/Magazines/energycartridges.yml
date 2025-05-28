@@ -104,7 +104,7 @@
   parent: [BaseSyndicateContraband, BaseEnergyCartridgeHarmony]
   id: EnergyCarbineCartridgeSyndicateHarmony
   name: jailbroken energy cartridge
-  description: A modified energy cartridge that is only compatible with the Blood-Red Energy Carbine. It shoots deadly shock projectiles.
+  description: A modified energy cartridge that is only compatible with the Blood-Red Energy Carbine. It shoots deadly armor-piercing shock projectiles.
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/Carbine/jailbroken.rsi
