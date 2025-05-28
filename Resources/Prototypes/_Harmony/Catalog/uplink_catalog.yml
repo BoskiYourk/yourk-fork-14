@@ -45,7 +45,7 @@
   description: uplink-blood-red-carbine-ammo-desc
   productEntity: EnergyCarbineCartridgeSyndicateHarmony
   cost:
-    Telecrystal: 4
+    Telecrystal: 2
   categories:
   - UplinkAmmo
 
