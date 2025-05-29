@@ -53,6 +53,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
 # End of Harmony Change
+  - type: GunRequiresWield
 
 - type: entity
   name: Hristov
@@ -123,6 +124,7 @@
     animation: WeaponArcThrust
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
+  - type: GunRequiresWield
 
 - type: entity
   name: flintlock pistol
