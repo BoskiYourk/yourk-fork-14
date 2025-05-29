@@ -27,3 +27,6 @@ uplink-blood-red-carbine-desc = A bundle containing the stolen and improved Bloo
 
 uplink-blood-red-carbine-ammo-name = Jailbroken Energy Cartridge
 uplink-blood-red-carbine-ammo-desc = An energy cartridge that holds twenty charges of electric bolts.
+
+uplink-hushpup-name = Hushpup
+uplink-hushpup-desc = Contains a Hushpup, a powerful silenced shotgun with a low magazine capacity, as well as a spare box of buckshot. Uses .50 shotgun ammo.
