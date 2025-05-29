@@ -1,7 +1,7 @@
 - type: entity
+  parent: KitchenMicrowaveUpstream
   id: KitchenMicrowave
   suffix: Harmony
-  parent: KitchenMicrowaveUpstream
   components:
   - type: Item
     sprite: _Harmony/Structures/Machines/microwave.rsi
@@ -30,9 +30,9 @@
     sprintModifier: 0.85
 
 - type: entity
+  parent: [SyndicateMicrowaveUpstream, KitchenMicrowaveUpstream, BaseSyndicateContraband]
   id: SyndicateMicrowave
   suffix: Harmony
-  parent: [SyndicateMicrowaveUpstream, KitchenMicrowaveUpstream, BaseSyndicateContraband]
   components:
   - type: Item
     sprite: _Harmony/Structures/Machines/microwave_syndie.rsi
