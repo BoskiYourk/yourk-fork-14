@@ -1839,7 +1839,6 @@
       Taco: RatTaco
       Burger: RatBurger
       Skewer: RatSkewer
-<<<<<<< HEAD
   - type: Destructible
     thresholds:
     - trigger:
@@ -1849,22 +1848,6 @@
       behaviors:
       - !type:GibBehavior
         recursive: false
-=======
->>>>>>> parent of 62c219a72d (UNFUCKS MY MASTER!!)
-# Start of Harmony Change: Mice now deal damage when thrown, and take damage when they land
-  - type: DamageOtherOnHit
-    ignoreResistances: true
-    damage:
-      types:
-        Blunt: 1
-  - type: DamageOnLand
-    damage:
-      types:
-        Blunt: 5
-  - type: EmitSoundOnLand
-    sound:
-      collection: WeakHit
-# End of Harmony Change
 
 - type: entity
   parent: MobMouse
