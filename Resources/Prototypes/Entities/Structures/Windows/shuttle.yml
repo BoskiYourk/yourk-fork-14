@@ -74,7 +74,7 @@
     mode: Diagonal
 # Start of Harmony Change: Makes walls and windows connect to eachother.
 #    key: windows
-    key: walls
+    key: shuttle
 # End of Harmony Change
     base: state
   - type: Icon

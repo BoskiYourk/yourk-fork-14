@@ -71,7 +71,8 @@
     - Diagonal
   - type: IconSmooth
     mode: Diagonal
-    key: walls
+#    key: walls
+    key: station
     base: state
   - type: Airtight
     noAirWhenFullyAirBlocked: false
@@ -119,7 +120,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: brick
 
 - type: entity
@@ -148,7 +150,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: clock
 
 - type: entity
@@ -181,7 +184,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: clown
   - type: Fixtures
     fixtures:
@@ -226,7 +230,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: meat
 
 - type: entity
@@ -252,7 +257,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: cult
 
 - type: entity
@@ -283,7 +289,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: debug
 
 - type: entity
@@ -313,7 +320,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: diamond
 
 - type: entity
@@ -366,7 +374,8 @@
         - WallLayer
         density: 4000
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: gold
 
 - type: entity
@@ -392,7 +401,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: ice
 
 - type: entity
@@ -434,7 +444,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: plasma
   - type: RadiationBlocker
     resistance: 5
@@ -478,7 +489,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: plastic
 
 - type: entity
@@ -496,7 +508,8 @@
       sprite: _Harmony/Structures/Walls/plastitanium.rsi
 # End of Harmony Change
     - type: IconSmooth
-      key: walls
+#      key: walls
+      key: station
       base: plastitanium
     - type: Fixtures
       fixtures:
@@ -639,7 +652,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: reinf_over
   - type: Appearance
   - type: GenericVisualizer
@@ -688,7 +702,8 @@
     graph: Girder
     node: reinforcedWallRust
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: reinf_over
   - type: Destructible
     thresholds:
@@ -786,7 +801,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: riveted
   - type: StaticPrice
     price: 150
@@ -818,7 +834,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: sandstone
 
 - type: entity
@@ -860,7 +877,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: silver
 
 #shuttle walls
@@ -974,7 +992,8 @@
     graph: Girder
     node: shuttleWall
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: shuttle
     base: state
   - type: Appearance
   - type: GenericVisualizer
@@ -1048,7 +1067,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: solid
 
 - type: entity
@@ -1110,7 +1130,8 @@
     graph: Girder
     node: wallrust
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: solid
   - type: Destructible
     thresholds:
@@ -1181,7 +1202,8 @@
         - WallLayer
         density: 6000
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: uranium
   - type: RadiationBlocker
     resistance: 6
@@ -1286,7 +1308,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: necropolis
 
 - type: entity
@@ -1307,7 +1330,8 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: station
     base: mining
   - type: RandomIconSmooth
     randomStates:

@@ -13,7 +13,8 @@
   - type: Transform
     noRot: true
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: rock
     mode: NoSprite
   - type: SmoothEdge
   - type: Icon
@@ -450,7 +451,8 @@
   description: A rocky asteroid.
   components:
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: rock
     mode: NoSprite
   - type: Icon
     sprite: Structures/Walls/rock.rsi
@@ -779,7 +781,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: IconSmooth
-    key: walls
+#    key: walls
+    key: rock
     mode: NoSprite
   - type: Icon
     sprite: Structures/Walls/rock.rsi
