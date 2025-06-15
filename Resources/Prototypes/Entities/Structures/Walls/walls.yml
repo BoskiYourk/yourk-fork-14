@@ -948,6 +948,9 @@
     resistance: 5
   - type: StaticPrice
     price: 200
+  - type: IconSmooth
+    key: shuttle
+    base: state
 
 - type: entity
   parent: BaseWall
@@ -1331,7 +1334,7 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
 #    key: walls
-    key: station
+    key: mining
     base: mining
   - type: RandomIconSmooth
     randomStates:
@@ -1379,6 +1382,8 @@
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
+  - type: IconSmooth
+    key: mining
 
 
 # Vault Walls
