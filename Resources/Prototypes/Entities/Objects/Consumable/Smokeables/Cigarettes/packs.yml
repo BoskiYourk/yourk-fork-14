@@ -139,9 +139,11 @@
   description: A label on the packaging reads, Wouldn't a slow death make a change?
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
+#    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
+    sprite: _Harmony/Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
   - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
+#    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
+    sprite: _Harmony/Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
 
 - type: entity
   id: CigPackRed
@@ -161,9 +163,11 @@
   description: For those who somehow want to obtain the record for the most amount of cancerous tumors.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
+#    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
+    sprite: _Harmony/Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
   - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
+#    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
+    sprite: _Harmony/Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
 
 - type: entity
   id: CigPackBlack
@@ -183,9 +187,11 @@
   description: Elite cigarettes for elite syndicate agents. Infused with medicine for when you need to do more than calm your nerves.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi
+#    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi
+    sprite: _Harmony/Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi
   - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi
+#    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi
+    sprite: _Harmony/Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi
   - type: StorageFill
     contents:
     - id: CigaretteSyndicate
@@ -199,9 +205,11 @@
   description: Dan worked with NT chemistry to dispose of excess chemicals, ENJOY.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
+#    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
+    sprite: _Harmony/Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
   - type: Item
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
+#    sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
+    sprite: _Harmony/Objects/Consumable/Smokeables/Cigarettes/Packs/mixed.rsi
   - type: EntityTableContainerFill
     containers:
       storagebase: !type:NestedSelector
