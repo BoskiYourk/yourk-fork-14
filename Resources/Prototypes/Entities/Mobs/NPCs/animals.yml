@@ -1870,6 +1870,20 @@
       behaviors:
       - !type:GibBehavior
         recursive: false
+# Start of Harmony Change: Mice now deal damage when thrown, and take damage when they land
+  - type: DamageOtherOnHit
+    ignoreResistances: true
+    damage:
+      types:
+        Blunt: 1
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 5
+  - type: EmitSoundOnLand
+    sound:
+      collection: WeakHit
+# End of Harmony Change
 
 - type: entity
   parent: MobMouse
