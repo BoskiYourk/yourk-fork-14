@@ -124,7 +124,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: brick
 
@@ -156,7 +156,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: clockwork
 # End of Harmony Change
     base: clock
 
@@ -192,7 +192,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: clown
   - type: Fixtures
@@ -269,7 +269,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: cult
 # End of Harmony Change
     base: cult
 
@@ -336,7 +336,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: diamond
 
@@ -392,7 +392,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: gold
 
@@ -421,7 +421,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: ice
 
@@ -466,7 +466,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: plasma
   - type: RadiationBlocker
@@ -513,7 +513,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: plastic
 
@@ -868,7 +868,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: sandstone
 
@@ -913,7 +913,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: silver
 
@@ -1251,7 +1251,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: walls
-    key: station
+    key: material
 # End of Harmony Change
     base: uranium
   - type: RadiationBlocker
@@ -1295,7 +1295,7 @@
   - type: IconSmooth
 # Start of Harmony Change: Updates IconSmooth key
 #    key: woods
-    key: station
+    key: material
 # End of Harmony Change
     base: wood
 
@@ -1447,6 +1447,7 @@
 # Start of Harmony Change: Adds IconSmoothing
   - type: IconSmooth
     key: mining
+    base: state
 # End of Harmony Change
 
 
