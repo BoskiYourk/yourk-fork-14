@@ -62,7 +62,7 @@
     energy: 1.5
   - type: MagazineVisuals
     magState: mag
-    steps: 16
+    steps: 6
   - type: Battery
     maxCharge: 750
     startingCharge: 750
