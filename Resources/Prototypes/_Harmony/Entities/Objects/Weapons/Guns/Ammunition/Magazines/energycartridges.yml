@@ -46,7 +46,7 @@
   parent: BaseEnergyCartridgeHarmony
   id: EnergyCarbineCartridgeUnstableHarmony
   name: unstable energy cartridge (carbine)
-  description: An energy cartridge filled with extremely unstable energy. Shoots forking energy bolts, be sure to stay close!
+  description: An energy cartridge filled with extremely unstable energy. It shoots forking energy bolts, be sure to stay close!
   components:
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Ammunition/Magazines/EnergyCartridges/Carbine/unstable.rsi
