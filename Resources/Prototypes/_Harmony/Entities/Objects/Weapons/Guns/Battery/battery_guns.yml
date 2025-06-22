@@ -51,7 +51,7 @@
         priority: 1
         whitelist:
           tags:
-            - EnergyCarbineCartridge
+            - EnergyCartridgeCarbine
         whitelistFailPopup: gun-magazine-whitelist-fail
   - type: Appearance
   - type: StaticPrice
@@ -75,7 +75,7 @@
         priority: 1
         whitelist:
           tags:
-            - EnergyCarbineCartridge
+            - EnergyCartridgeCarbine
         whitelistFailPopup: gun-magazine-whitelist-fail
 
 - type: entity
@@ -117,8 +117,8 @@
         priority: 1
         whitelist:
           tags:
-          - EnergyCarbineCartridgeSyndicate
-          - EnergyCarbineCartridge
+          - EnergyCartridgeCarbineSyndicate
+          - EnergyCartridgeCarbine
         whitelistFailPopup: gun-magazine-whitelist-fail
   - type: MagazineVisuals
     magState: mag

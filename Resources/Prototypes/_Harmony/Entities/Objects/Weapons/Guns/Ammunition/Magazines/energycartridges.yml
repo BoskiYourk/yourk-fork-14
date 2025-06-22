@@ -40,7 +40,7 @@
     fireCost: 37
   - type: Tag
     tags:
-      - EnergyCarbineCartridge
+      - EnergyCartridgeCarbine
 
 - type: entity
   parent: BaseEnergyCartridgeHarmony
@@ -71,7 +71,7 @@
     fireCost: 2000
   - type: Tag
     tags:
-      - EnergyCarbineCartridge
+      - EnergyCartridgeCarbine
 
 - type: entity
   parent: BaseEnergyCartridgeHarmony
@@ -98,7 +98,7 @@
     fireCost: 37
   - type: Tag
     tags:
-      - EnergyCarbineCartridge
+      - EnergyCartridgeCarbine
 
 - type: entity
   parent: [BaseSyndicateContraband, BaseEnergyCartridgeHarmony]
@@ -125,4 +125,4 @@
     fireCost: 37
   - type: Tag
     tags:
-    - EnergyCarbineCartridgeSyndicate
+    - EnergyCartridgeCarbineSyndicate

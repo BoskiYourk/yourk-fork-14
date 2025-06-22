@@ -483,8 +483,8 @@
         - Truncheon
         - HandGrenade
 # Harmony Change: Adds the Energy Cartridges to the security belt whitelist
-        - EnergyCarbineCartridge
-        - EnergyCarbineCartridgeSyndicate
+        - EnergyCartridgeCarbine
+        - EnergyCartridgeCarbineSyndicate
 # End of Harmony Change
       components:
         - Stunbaton
