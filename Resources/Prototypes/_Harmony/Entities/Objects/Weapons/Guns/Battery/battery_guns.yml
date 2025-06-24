@@ -143,9 +143,9 @@
     fireCost: 150
   - type: BatteryWeaponFireModes
     fireModes:
-    - proto: BulletLaserMagnumHarmony
+    - proto: BulletEnergyMagnumHarmony
       fireCost: 150
-    - proto: BulletLaserWindowPiercingMagnumHarmony
+    - proto: BulletEnergyMagnumWindowPiercingHarmony
       fireCost: 150
     - proto: BulletDisabler
       fireCost: 100
