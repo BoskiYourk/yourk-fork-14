@@ -11,7 +11,7 @@
         - ReagentId: Zinc
           Quantity: 5
   - type: Appearance
-  - type: BatteryAmmoProvider
+  - type: ProjectileBatteryAmmoProvider
 
 # Carbine
 
@@ -35,12 +35,12 @@
   - type: Battery
     maxCharge: 750
     startingCharge: 750
-  - type: BatteryAmmoProvider
-    proto: BulletLaserHarmony
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEnergyCarbineHarmony
     fireCost: 37
   - type: Tag
     tags:
-      - EnergyCarbineCartridge
+      - EnergyCartridgeCarbine
 
 - type: entity
   parent: BaseEnergyCartridgeHarmony
@@ -66,12 +66,12 @@
   - type: Battery
     maxCharge: 750
     startingCharge: 750
-  - type: BatteryAmmoProvider
+  - type: ProjectileBatteryAmmoProvider
     proto: BulletEnergyCarbineUnstableHarmony
     fireCost: 50
   - type: Tag
     tags:
-      - EnergyCarbineCartridge
+      - EnergyCartridgeCarbine
 
 - type: entity
   parent: BaseEnergyCartridgeHarmony
@@ -93,12 +93,12 @@
   - type: Battery
     maxCharge: 750
     startingCharge: 750
-  - type: BatteryAmmoProvider
-    proto: BulletLaserXRayHarmony
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEnergyCarbineXRayHarmony
     fireCost: 37
   - type: Tag
     tags:
-      - EnergyCarbineCartridge
+      - EnergyCartridgeCarbine
 
 - type: entity
   parent: [BaseSyndicateContraband, BaseEnergyCartridgeHarmony]
@@ -120,9 +120,9 @@
   - type: Battery
     maxCharge: 750
     startingCharge: 750
-  - type: BatteryAmmoProvider
-    proto: BulletLaserShockHarmony
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEnergyCarbineShockHarmony
     fireCost: 37
   - type: Tag
     tags:
-    - EnergyCarbineCartridgeSyndicate
+    - EnergyCartridgeCarbineSyndicate
