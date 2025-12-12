@@ -11,7 +11,7 @@
         - ReagentId: Zinc
           Quantity: 5
   - type: Appearance
-  - type: BatteryAmmoProvider
+  - type: ProjectileBatteryAmmoProvider
 
 # Carbine
 
