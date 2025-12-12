@@ -24,9 +24,11 @@
   - type: AmmoCounter
   - type: Wieldable
     unwieldOnUse: false
-  - type: GunWieldBonus
-    minAngle: -14
-    maxAngle: -12
+# Unstable cartridge works with full accuracy while one-handed. If that's changed, uncomment this.
+  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+#  - type: GunWieldBonus
+#    minAngle: -14
+#    maxAngle: -12
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -104,9 +106,10 @@
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
     minAngle: 15
     maxAngle: 26
-  - type: GunWieldBonus
-    minAngle: -8
-    maxAngle: -6
+# Unstable cartridge works with full accuracy while one-handed. If that's changed, uncomment this.
+#  - type: GunWieldBonus
+#    minAngle: -8
+#    maxAngle: -6
   - type: ItemSlots
     slots:
       gun_magazine:
