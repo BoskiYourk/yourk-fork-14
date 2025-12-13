@@ -172,9 +172,13 @@
   description: Upgraded sunglasses that provide flash immunity and a security HUD.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/secglasses.rsi
+# Harmony Change - Changed sprite path
+    sprite: _Harmony/Clothing/Eyes/Glasses/secglasses.rsi
+# End of Harmony Change
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/secglasses.rsi
+    # Harmony Change - Changed sprite path
+    sprite: _Harmony/Clothing/Eyes/Glasses/secglasses.rsi
+  # End of Harmony Change
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -200,9 +204,13 @@
   description: Upgraded sunglasses that provide flash immunity and show ID card status.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/commandglasses.rsi
+    # Harmony Change - Changed sprite path
+    sprite: _Harmony/Clothing/Eyes/Glasses/commandglasses.rsi
+  # End of Harmony Change
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/commandglasses.rsi
+    # Harmony Change - Changed sprite path
+    sprite: _Harmony/Clothing/Eyes/Glasses/commandglasses.rsi
+  # End of Harmony Change
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
