@@ -173,10 +173,12 @@
   components:
   - type: Sprite
 # Harmony Change - Changed sprite path
+#    sprite: Clothing/Eyes/Glasses/secglasses.rsi
     sprite: _Harmony/Clothing/Eyes/Glasses/secglasses.rsi
 # End of Harmony Change
   - type: Clothing
     # Harmony Change - Changed sprite path
+    #    sprite: Clothing/Eyes/Glasses/secglasses.rsi
     sprite: _Harmony/Clothing/Eyes/Glasses/secglasses.rsi
   # End of Harmony Change
   - type: FlashImmunity
@@ -205,10 +207,12 @@
   components:
   - type: Sprite
     # Harmony Change - Changed sprite path
+#    sprite: Clothing/Eyes/Glasses/commandglasses.rsi
     sprite: _Harmony/Clothing/Eyes/Glasses/commandglasses.rsi
   # End of Harmony Change
   - type: Clothing
     # Harmony Change - Changed sprite path
+    #    sprite: Clothing/Eyes/Glasses/commandglasses.rsi
     sprite: _Harmony/Clothing/Eyes/Glasses/commandglasses.rsi
   # End of Harmony Change
   - type: FlashImmunity
