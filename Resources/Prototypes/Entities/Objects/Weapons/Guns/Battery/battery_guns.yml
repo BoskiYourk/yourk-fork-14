@@ -918,9 +918,13 @@
     fireCost: 150
   - type: BatteryWeaponFireModes
     fireModes:
-    - proto: BulletLaserMagnum
+# Harmony Change: Reverts the energy magnum's bullet projectiles to the Harmony versions
+#    - proto: BulletLaserMagnum
+    - proto: BulletEnergyMagnumHarmony
       fireCost: 150
-    - proto: BulletLaserWindowPiercingMagnum
+#    - proto: BulletLaserWindowPiercingMagnum
+    - proto: BulletEnergyMagnumWindowPiercingHarmony
+# End of Harmony Change
       fireCost: 150
     - proto: BulletDisabler
       fireCost: 62.5
