@@ -82,11 +82,11 @@
       slots:
       - suitStorage
     - type: HeldSpeedModifier
-      walkModifier: 0.8
-      sprintModifier: 0.8
-    - type: ClothingSpeedModifier
       walkModifier: 0.9
       sprintModifier: 0.9
+    - type: ClothingSpeedModifier
+      walkModifier: 0.95
+      sprintModifier: 0.95
 # End of Harmony Change
     - type: StaticPrice
       price: 90
@@ -124,11 +124,11 @@
       slots:
       - suitStorage
     - type: HeldSpeedModifier
-      walkModifier: 0.8
-      sprintModifier: 0.8
-    - type: ClothingSpeedModifier
       walkModifier: 0.9
       sprintModifier: 0.9
+    - type: ClothingSpeedModifier
+      walkModifier: 0.95
+      sprintModifier: 0.95
 # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
@@ -161,11 +161,11 @@
       slots:
       - suitStorage
     - type: HeldSpeedModifier
-      walkModifier: 0.8
-      sprintModifier: 0.8
-    - type: ClothingSpeedModifier
       walkModifier: 0.9
       sprintModifier: 0.9
+    - type: ClothingSpeedModifier
+      walkModifier: 0.95
+      sprintModifier: 0.95
 # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
@@ -200,8 +200,8 @@
       slots:
       - suitStorage
     - type: HeldSpeedModifier
-      walkModifier: 0.85
-      sprintModifier: 0.85
+      walkModifier: 0.9
+      sprintModifier: 0.9
     - type: ClothingSpeedModifier
       walkModifier: 0.95
       sprintModifier: 0.95
@@ -324,11 +324,11 @@
       slots:
       - suitStorage
     - type: HeldSpeedModifier
-      walkModifier: 0.70
-      sprintModifier: 0.70
-    - type: ClothingSpeedModifier
       walkModifier: 0.8
       sprintModifier: 0.8
+    - type: ClothingSpeedModifier
+      walkModifier: 0.9
+      sprintModifier: 0.9
   # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
@@ -638,6 +638,11 @@
       components:
       - type: DisarmMalus
         malus: 0.6
+  # Harmony Change: Adds Held Slowdown
+      - type: HeldSpeedModifier
+        walkModifier: 0.9
+        sprintModifier: 0.9
+  # End of Harmony Change
     - type: ItemToggleSize
       activatedSize: Huge
     - type: Sprite
@@ -688,8 +693,3 @@
                   max: 2
     - type: StaticPrice
       price: 150
-# Harmony Change: Adds Held Slowdown
-    - type: HeldSpeedModifier
-      walkModifier: 0.85
-      sprintModifier: 0.85
-# End of Harmony Change
