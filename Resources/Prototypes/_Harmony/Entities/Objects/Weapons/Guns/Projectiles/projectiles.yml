@@ -46,16 +46,16 @@
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Projectiles/laser_projectile.rsi
     layers:
-    - state: icon
+    - state: small
       shader: unshaded
   - type: PointLight
     enabled: true
-    color: "#ff4300"
+    color: "#ff0000"
   - type: Projectile
-    impactEffect: BulletImpactEffectOrangeDisabler
+    impactEffect: BulletImpactEffectLaserHarmony
     damage:
       types:
-        Heat: 15
+        Heat: 8
 
 - type: entity
   parent: BulletEnergyCarbineHarmony
@@ -77,7 +77,7 @@
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Projectiles/xray_projectile.rsi
     layers:
-    - state: icon
+    - state: small
       shader: unshaded
   - type: PointLight
     enabled: true
@@ -86,8 +86,8 @@
     impactEffect: BulletImpactEffectXRayHarmony
     damage:
       types:
-        Heat: 10
-        Radiation: 6
+        Heat: 5
+        Radiation: 3
 
 - type: entity
   parent: BulletEnergyBaseHarmony
@@ -98,7 +98,7 @@
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Projectiles/shock_projectile.rsi
     layers:
-    - state: icon
+    - state: small
       shader: unshaded
   - type: PointLight
     enabled: true
@@ -107,10 +107,10 @@
     impactEffect: BulletImpactShockHarmony
     damage:
       types:
-        Shock: 9
+        Shock: 12
     ignoreResistances: true
   - type: StaminaDamageOnCollide
-    damage: 5
+    damage: 8
 
 # Magnum
 
@@ -123,13 +123,13 @@
   - type: Sprite
     sprite: _Harmony/Objects/Weapons/Guns/Projectiles/laser_projectile.rsi
     layers:
-    - state: icon
+    - state: medium
       shader: unshaded
   - type: PointLight
     enabled: true
-    color: "#ff4300"
+    color: "#ff0000"
   - type: Projectile
-    impactEffect: BulletImpactEffectOrangeDisabler
+    impactEffect: BulletImpactEffectLaserHarmony
     damage:
       types:
         Heat: 30
@@ -141,15 +141,15 @@
   name: window-piercing bolt (magnum)
   components:
   - type: Sprite
-    sprite: _Harmony/Objects/Weapons/Guns/Projectiles/piercing_projectile.rsi
+    sprite: _Harmony/Objects/Weapons/Guns/Projectiles/laser_projectile.rsi
     layers:
-    - state: icon
+    - state: pierce
       shader: unshaded
   - type: PointLight
     enabled: true
-    color: "#ff4300"
+    color: "#ff0000"
   - type: Projectile
-    impactEffect: BulletImpactEffectOrangeDisabler
+    impactEffect: BulletImpactEffectLaserHarmony
     damage:
       types:
         Heat: 20
