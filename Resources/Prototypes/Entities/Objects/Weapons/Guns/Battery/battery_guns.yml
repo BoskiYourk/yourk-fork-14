@@ -889,6 +889,8 @@
   description: A high powered self-charging energy pistol designed for elite security personnel. It has has three firing modes allowing for either high damage, window piercing, or non-lethal disabling.
   components:
   - type: Sprite
+# Harmony Change: Reverts the energy magnum back to the Harmony sprites
+#    sprite: Objects/Weapons/Guns/Battery/energy_magnum.rsi
     sprite: _Harmony/Objects/Weapons/Guns/Battery/energy_magnum.rsi
     layers:
     - state: base
@@ -903,7 +905,9 @@
     zeroVisible: true
   - type: Appearance
   - type: Clothing
+#    sprite: Objects/Weapons/Guns/Battery/energy_magnum.rsi
     sprite: _Harmony/Objects/Weapons/Guns/Battery/energy_magnum.rsi
+  # End of Harmony Change
   - type: Tag
     tags:
     - HighRiskItem
