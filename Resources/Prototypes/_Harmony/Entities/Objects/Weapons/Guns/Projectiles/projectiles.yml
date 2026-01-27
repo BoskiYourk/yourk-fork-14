@@ -110,7 +110,7 @@
         Shock: 12
     ignoreResistances: true
   - type: StaminaDamageOnCollide
-    damage: 8
+    damage: 10
 
 # Magnum
 
