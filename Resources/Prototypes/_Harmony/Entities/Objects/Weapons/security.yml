@@ -1,0 +1,41 @@
+﻿- type: entity
+  parent: [BaseItem, BaseSecurityContraband]
+  id: PlasticBatonHarmony
+  name: plastic baton
+  description: A rigid, steel-studded baton, meant to harm.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/truncheon.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 15
+  - type: MultiHandedItem
+  - type: StaminaDamageOnHit
+    damage: 35
+#  - type: Wieldable
+#  - type: IncreaseDamageOnWield
+#    damage:
+#      types:
+#        Blunt: -5
+  - type: Item
+    size: Normal
+  - type: Tag
+    tags:
+    - Truncheon
+  - type: Clothing
+    sprite: Objects/Weapons/Melee/truncheon.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: StaticPrice
+    price: 80
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
