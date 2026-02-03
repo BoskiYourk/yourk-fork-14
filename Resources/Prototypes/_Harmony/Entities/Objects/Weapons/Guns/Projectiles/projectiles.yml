@@ -55,7 +55,7 @@
     impactEffect: BulletImpactEffectLaserHarmony
     damage:
       types:
-        Heat: 8
+        Heat: 7
 
 - type: entity
   parent: BulletEnergyCarbineHarmony
@@ -86,8 +86,8 @@
     impactEffect: BulletImpactEffectXRayHarmony
     damage:
       types:
-        Heat: 5
-        Radiation: 3
+        Heat: 6
+        Radiation: 4
 
 - type: entity
   parent: BulletEnergyBaseHarmony
