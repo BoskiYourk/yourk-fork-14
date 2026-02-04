@@ -151,7 +151,10 @@
   - type: StaticPrice
     price: 500
   - type: PowerCellDraw
-    drawRate: 4
+# Harmony Change: Increases the "PowerCellDraw" drawrate
+#    drawRate: 4
+    drawRate: 80
+# End of Harmony Change
   - type: ToggleCellDraw
   - type: ItemSlots
     slots:
