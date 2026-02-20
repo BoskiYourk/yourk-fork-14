@@ -37,7 +37,7 @@
     startingCharge: 750
   - type: BatteryAmmoProvider
     proto: BulletEnergyCarbineHarmony
-    fireCost: 12.5
+    fireCost: 16.5
   - type: Tag
     tags:
       - EnergyCartridgeCarbine
@@ -95,7 +95,7 @@
     startingCharge: 750
   - type: BatteryAmmoProvider
     proto: BulletEnergyCarbineXRayHarmony
-    fireCost: 25
+    fireCost: 16.5
   - type: Tag
     tags:
       - EnergyCartridgeCarbine

@@ -55,7 +55,7 @@
     impactEffect: BulletImpactEffectLaserHarmony
     damage:
       types:
-        Heat: 7
+        Heat: 10
 
 - type: entity
   parent: BulletEnergyCarbineHarmony
@@ -107,10 +107,10 @@
     impactEffect: BulletImpactShockHarmony
     damage:
       types:
-        Shock: 12
+        Shock: 14
     ignoreResistances: true
   - type: StaminaDamageOnCollide
-    damage: 10
+    damage: 14
 
 # Magnum
 
