@@ -66,7 +66,7 @@
   - type: Battery
     maxCharge: 750
     startingCharge: 750
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletEnergyCarbineUnstableHarmony
     fireCost: 30
   - type: Tag
