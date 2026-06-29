@@ -79,14 +79,14 @@
   - sprite: _CD/Mobs/Customization/Generic/head.rsi
     state: eyebags
 
-- type: marking
-  id: EyebrowsBig
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Human, Dwarf ]
-  sprites:
-  - sprite: _CD/Mobs/Customization/Generic/head.rsi
-    state: eyebrowsthick
+#- type: marking
+#  id: EyebrowsBig
+#  bodyPart: Head
+#  markingCategory: Head
+#  speciesRestriction: [ Human, Dwarf ]
+#  sprites:
+#  - sprite: _CD/Mobs/Customization/Generic/head.rsi
+#    state: eyebrowsthick
 
 - type: marking
   id: EyebrowsBigger
@@ -153,59 +153,59 @@
     state: head_heavy2
 
 # Head_Top
-- type: marking
-  id: HeadEarrings
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Human, Dwarf, SlimePerson]
-  forcedColoring: false
-  followSkinColor: false
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-        color: "#ffc833"
-  sprites:
-  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
-    state: head_earrings1
-  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
-    state: head_earrings2
+#- type: marking
+#  id: HeadEarrings
+#  bodyPart: HeadTop
+#  markingCategory: HeadTop
+#  speciesRestriction: [Human, Dwarf, SlimePerson]
+#  forcedColoring: false
+#  followSkinColor: false
+#  coloring:
+#    default:
+#      type:
+#        !type:SimpleColoring
+#        color: "#ffc833"
+#  sprites:
+#  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
+#    state: head_earrings1
+#  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
+#    state: head_earrings2
 
-- type: marking
-  id: HeadEarringsDrop
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Human, Dwarf, SlimePerson]
-  forcedColoring: false
-  followSkinColor: false
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-        color: "#ffc833"
-  sprites:
-  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
-    state: head_earrings_drop1
-  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
-    state: head_earrings_drop2
+#- type: marking
+#  id: HeadEarringsDrop
+#  bodyPart: HeadTop
+#  markingCategory: HeadTop
+#  speciesRestriction: [Human, Dwarf, SlimePerson]
+#  forcedColoring: false
+#  followSkinColor: false
+#  coloring:
+#    default:
+#      type:
+#        !type:SimpleColoring
+#        color: "#ffc833"
+#  sprites:
+#  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
+#    state: head_earrings_drop1
+#  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
+#    state: head_earrings_drop2
 
-- type: marking
-  id: HeadEarringsWeights
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Human, Dwarf, SlimePerson]
-  forcedColoring: false
-  followSkinColor: false
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-        color: "#ffc833"
-  sprites:
-  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
-    state: head_earrings_weights1
-  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
-    state: head_earrings_weights2
+#- type: marking
+#  id: HeadEarringsWeights
+#  bodyPart: HeadTop
+#  markingCategory: HeadTop
+#  speciesRestriction: [Human, Dwarf, SlimePerson]
+#  forcedColoring: false
+#  followSkinColor: false
+#  coloring:
+#    default:
+#      type:
+#        !type:SimpleColoring
+#        color: "#ffc833"
+#  sprites:
+#  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
+#    state: head_earrings_weights1
+#  - sprite: _CD/Mobs/Customization/Generic/head_top.rsi
+#    state: head_earrings_weights2
 
 # Snout
 - type: marking

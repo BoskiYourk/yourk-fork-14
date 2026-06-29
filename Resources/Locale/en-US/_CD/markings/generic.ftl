@@ -9,8 +9,8 @@ marking-HumanHairLowpigtails = Low Pigtails
 marking-HumanoidEyebags = Eyebags
 marking-HumanoidEyebags-eyebags = Eyebags
 
-marking-EyebrowsBig = Eyebrows (Big)
-marking-EyebrowsBig-eyebrowsthick = Eyebrows (Big)
+#marking-EyebrowsBig = Eyebrows (Big)
+#marking-EyebrowsBig-eyebrowsthick = Eyebrows (Big)
 
 marking-EyebrowsBigger = Eyebrows (Bigger)
 marking-EyebrowsBigger-eyebrowsultra = Eyebrows (Bigger)
@@ -38,17 +38,17 @@ marking-HeadHeavyTattoos-head_heavy2 = Heavy Neck Tattoos (Upper)
 marking-HeadHeavyTattoos = Heavy Neck Tattoos
 
 # Head (Top)
-marking-HeadEarrings-head_earrings1 = Right Earring
-marking-HeadEarrings-head_earrings2 = Left Earring
-marking-HeadEarrings = Earrings (Small)
+#marking-HeadEarrings-head_earrings1 = Right Earring
+#marking-HeadEarrings-head_earrings2 = Left Earring
+#marking-HeadEarrings = Earrings (Small)
 
-marking-HeadEarringsDrop-head_earrings_drop1 = Right Earring
-marking-HeadEarringsDrop-head_earrings_drop2 = Left Earring
-marking-HeadEarringsDrop = Earrings (Drop)
+#marking-HeadEarringsDrop-head_earrings_drop1 = Right Earring
+#marking-HeadEarringsDrop-head_earrings_drop2 = Left Earring
+#marking-HeadEarringsDrop = Earrings (Drop)
 
-marking-HeadEarringsWeights-head_earrings_weights1 = Right Earring
-marking-HeadEarringsWeights-head_earrings_weights2 = Left Earring
-marking-HeadEarringsWeights = Earrings (Weights)
+#marking-HeadEarringsWeights-head_earrings_weights1 = Right Earring
+#marking-HeadEarringsWeights-head_earrings_weights2 = Left Earring
+#marking-HeadEarringsWeights = Earrings (Weights)
 
 # Snout
 marking-HeadSeptum-head_septum = Septum Ring
